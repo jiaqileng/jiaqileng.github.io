@@ -26,11 +26,9 @@ Chenyi Zhang\*, **Jiaqi Leng \***, Tongyang Li. [arXiv](https://arxiv.org/abs/20
 
 
 
-**TBA**
-
-
-
 ## Contact
+
+(Due to the pandemic of COVID-19 and restricted operations in the University, the assignment of office has been delayed. I will update contact infomation once available.)
 
 Office: TBA
 
