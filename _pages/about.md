@@ -2,25 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  more_info:
 
 news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a fifth-year doctoral student in the [AMSC](https://amsc.umd.edu/) program (track: applied math) at the University of Maryland, College Park. I am also affiliated to [QuICS](https://quics.umd.edu/). I'm fortunate to be advised by [Xiaodi Wu](https://www.cs.umd.edu/~xwu/). My name in Chinese: 冷佳奇.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research focuses on quantum algorithms for continuous optimization and scientific computing. Specifically, I advocate [Hamiltonian-oriented quantum algorithm design](https://www.cs.umd.edu/~xwu/research.html), a new paradigm in quantum computation that emphasizes both provable quantum speedups and realistic hardware implementability. I am particularly interested in the following topics:
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+1. Theoretical foundations and designs of quantum algorithms,
+2. Resource-efficient implementation of quantum algorithms,
+3. Theory and software for quantum optimization.
+

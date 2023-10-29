@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - jiaqileng
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - jiaqileng/quantum-hamiltonian-descent
+  - jiaqileng/diff-analog-rydberg
+  - YilingQiao/diffquantum

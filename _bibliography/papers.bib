@@ -3,82 +3,83 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@article{leng2023expanding,
+  title={Expanding hardware-efficiently manipulable Hilbert space via Hamiltonian embedding},
+  author={Leng, Jiaqi and Li, Joseph and Peng, Yuxiang and Wu, Xiaodi},
+  abstract={The realization of quantum computing is fundamentally based on the precise manipulation of Hilbert spaces of underlying quantum devices. The conventional wisdom relies on circuit synthesis techniques to decompose sophisticated operations on Hilbert space to a set of universal elementary gates. Although providing a universal solution, this hardware-agnostic strategy typically leads to deep quantum circuits for interesting quantum algorithms, which makes them infeasible for implementation on near-term quantum devices. In this paper, we propose a technique named Hamiltonian embedding that simulates a desired Hamiltonian evolution by embedding it into the evolution of a large and structured quantum system, which, however, allows more efficient manipulation via hardware-native operations. We conduct a systematic study of this embedding technique and demonstrate a significant computational resource save for implementing prominent quantum applications. As a result, we can experimentally realize quantum walks on complicated graphs (e.g., binary trees, glued-tree graphs), quantum spatial search, and the simulation of real-space Schrödinger equations on trapped-ion and neutral-atom platforms today. Given the fundamental role of Hamiltonian evolution in quantum algorithm design, our technique significantly expands the horizon of implementable quantum advantage in the NISQ era.},
+  journal={Preprint in preparation},
+  year={2023}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{augustino2023quantum,
+  title={A quantum central path algorithm for linear optimization},
+  author={Augustino, Brandon and Leng, Jiaqi and Nannicini, Giacomo and Terlaky, Tam{\'a}s and Wu, Xiaodi},
+  abstract={We propose a novel quantum algorithm for solving linear optimization problems by quantum-mechanical simulation of the central path. While interior point methods follow the central path with an iterative algorithm that works with successive linearizations of the perturbed KKT conditions, we perform a single simulation working directly with the nonlinear complementarity equations. Combining our approach with iterative refinement techniques, we obtain an exact solution to a linear optimization problem involving $m$ constraints and $n$ variables using at most $O ((m + n) nnz(A)  \kappa  L)$ elementary gates and $O(nnz(A) L)$ classical arithmetic operations, where $nnz(A)$ is the total number of non-zero elements found in the constraint matrix, $L$ denotes binary input length of the problem data, and $\kappa$  is a condition number that depends only on the problem data.},
+  journal={Preprint},
+  year={2023},
+  preview={qcpm.png}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{leng2023quantum2,
+  title={A quantum-classical performance separation in nonconvex optimization},
+  author={Leng, Jiaqi and Zheng, Yufan and Wu, Xiaodi},
+  abstract={In this paper, we identify a family of nonconvex continuous optimization instances, each $d$-dimensional instance with $2^d$ local minima, to demonstrate a quantum-classical performance separation. Specifically, we prove that the recently proposed Quantum Hamiltonian Descent (QHD) algorithm [Leng et al., arXiv:2303.01471] is able to solve any $d$-dimensional instance from this family using $O(d^3)$ quantum queries to the function value and $O(d^4)$ additional 1-qubit and 2-qubit elementary quantum gates. On the other side, a comprehensive empirical study suggests that representative state-of-the-art classical optimization algorithms/solvers (including Gurobi) would require a super-polynomial time to solve such optimization instances.},
+  journal={Preprint},
+  year={2023},
+  preview={qhd_nonconvex.png}
+}
+
+@article{leng2023quantum,
+  title={Quantum Hamiltonian Descent},
+  author={Leng, Jiaqi and Hickman, Ethan and Li, Joseph and Wu, Xiaodi},
+  abstract={Gradient descent is a fundamental algorithm in both theory and practice for continuous optimization. Identifying its quantum counterpart would be appealing to both theoretical and practical quantum applications. A conventional approach to quantum speedups in optimization relies on the quantum acceleration of intermediate steps of classical algorithms, while keeping the overall algorithmic trajectory and solution quality unchanged. We propose Quantum Hamiltonian Descent (QHD), which is derived from the path integral of dynamical systems referring to the continuous-time limit of classical gradient descent algorithms, as a truly quantum counterpart of classical gradient methods where the contribution from classically-prohibited trajectories can significantly boost QHD's performance for non-convex optimization. Moreover, QHD is described as a Hamiltonian evolution efficiently simulatable on both digital and analog quantum computers. By embedding the dynamics of QHD into the evolution of the so-called Quantum Ising Machine (including D-Wave and others), we empirically observe that the D-Wave-implemented QHD outperforms a selection of state-of-the-art gradient-based classical solvers and the standard quantum adiabatic algorithm, based on the time-to-solution metric, on non-convex constrained quadratic programming instances up to 75 dimensions. Finally, we propose a "three-phase picture" to explain the behavior of QHD, especially its difference from the quantum adiabatic algorithm.},
+  journal={Preprint},
+  year={2023},
+  html={https://arxiv.org/abs/2303.01471},
+  preview={qhd.png},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{leng2022differentiable,
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  title={Differentiable analog quantum computing for optimization and control},
+  abstract={We formulate the first differentiable analog quantum computing framework with specific parameterization design at the analog signal (pulse) level to better exploit near-term quantum devices via variational methods. We further propose a scalable approach to estimate the gradients of quantum dynamics using a forward pass with Monte Carlo sampling, which leads to a quantum stochastic gradient descent algorithm for scalable gradient-based training in our framework. Applying our framework to quantum optimization and control, we observe a significant advantage of differentiable analog quantum computing against SOTAs based on parameterized digital quantum circuits by orders of magnitude.},
+  author={Leng, Jiaqi and Peng, Yuxiang and Qiao, Yi-Ling and Lin, Ming and Wu, Xiaodi},
+  journal={Advances in Neural Information Processing Systems},
+  volume={35},
+  pages={4707--4721},
+  year={2022},
+  html={https://proceedings.neurips.cc/paper_files/paper/2022/file/1e70ac91ad26ba5b24cf11b12a1f90fe-Paper-Conference.pdf},
+  preview={diff_analog.png},
+  selected={true}
+}
+
+@article{childs2022quantum,
+  abbr={Quantum},
+  bibtex_show={true},
+  title={Quantum simulation of real-space dynamics},
+  abstract={Quantum simulation is a prominent application of quantum computers. While there is extensive previous work on simulating finite-dimensional systems, less is known about quantum algorithms for real-space dynamics. We conduct a systematic study of such algorithms. In particular, we propose quantum algorithms to simulate the dynamics of a d-dimensional Schrödinger equation with $\eta$ particles. Compared to the best previous results, our quantum algorithms achieve exponential improvements in several problem parameters. We give applications to several computational problems, including faster real-space simulation of quantum chemistry, rigorous analysis of discretization error for simulation of a uniform electron gas, and a quadratic improvement to a quantum algorithm for escaping saddle points in nonconvex optimization.},
+  author={Childs, Andrew M and Leng, Jiaqi and Li, Tongyang and Liu, Jin-Peng and Zhang, Chenyi},
+  journal={Quantum},
+  volume={6},
+  pages={860},
+  year={2022},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften},
+  html={https://quantum-journal.org/papers/q-2022-11-17-860/}
+}
+
+@article{zhang2021quantum,
+  bibtex_show={true},
+  title={Quantum algorithms for escaping from saddle points},
+  abstract={We initiate the study of quantum algorithms for escaping from saddle points with provable guarantee. Compared to classical algorithms by Jin et al., our quantum algorithm is polynomially better in terms of $log(n)$ ($n$ is the problem dimension) and matches its complexity in terms of $1/\epsilon$. Technically, our main contribution is the idea of replacing the classical perturbations in gradient descent methods by simulating quantum wave equations, which constitutes the improvement in the quantum query complexity with $log(n)$ factors for escaping from saddle points. We also show how to use a quantum gradient computation algorithm due to Jordan to replace the classical gradient queries by quantum evaluation queries with the same complexity. Finally, we also perform numerical experiments that support our theoretical findings.},
+  author={Zhang, Chenyi and Leng, Jiaqi and Li, Tongyang},
+  journal={Quantum},
+  volume={5},
+  pages={529},
+  year={2021},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften},
+  preview={esc_saddle.png},
+  html={https://quantum-journal.org/papers/q-2021-08-20-529/},
+  selected={true}
 }
