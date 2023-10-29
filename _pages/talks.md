@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: 
+permalink: /talks/
 title: talks
-description:
+description: Here is a list of my talks, arranged in reversed chronological order.
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 ### Conference
