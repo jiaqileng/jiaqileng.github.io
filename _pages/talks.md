@@ -17,7 +17,7 @@ nav_order: 5
 7. *"Quantum algorithms for escaping from saddle points"*, contributed talk, Quantum Information Processing 2021 (QIP 2021). February 2, 2021.
 
 ### Seminar & Workshop
-1. *"A dynamical point of view on quantum optimization"*,, invited talk, Level Set Seminar (organizer: Prof. Stanley Osher, host: Siting Liu), Department of Mathematics, UCLA. October 30, 2023.
+1. *"A dynamical point of view on quantum optimization"*, invited talk, Level Set Seminar (organizer: Prof. Stanley Osher, host: Siting Liu), Department of Mathematics, UCLA. October 30, 2023.
 2. *"Hamiltonian embedding and a paradigm shift in quantum algorithm design"*, Young Researcher Seminar (organizers: Zhiyan Ding and Ruizhe Zhang), Institute for Pure and Applied Mathematics, UCLA. October 10, 2023.
 3. *"Quantum Hamiltonian Descent"*, invited talk, Harvard-MIT Quantum Machine Learning Journal Club (host: Hong-Ye Hu), Harvard University. June 21, 2023.
 4. *"Quantum Hamiltonian Descent"*, invited talk, Industrial and Systems Engineering Seminar (host: Prof. Chaoyue Zhao), University of Washington. April 18, 2023.
