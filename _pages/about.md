@@ -22,5 +22,5 @@ My research focuses on quantum algorithms for continuous optimization and scient
 
 1. Theoretical foundations and designs of quantum algorithms,
 2. Resource-efficient implementation of quantum algorithms,
-3. Theory and software for quantum optimization.
+3. Software toolchains for quantum applications.
 
