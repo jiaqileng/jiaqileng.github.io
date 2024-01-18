@@ -3,13 +3,25 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{kushnir2024qhdopt,
+  title={QHDOPT: A software for nonlinear optimization with quantum Hamiltonian decent},
+  author={Kushnir, Samuel and Leng, Jiaqi and Peng, Yuxiang and Fan, Lei and Wu, Xiaodi},
+  abstract={We develop an open-source, end-to-end software (named QHDOPT), which can solve nonlinear optimization problems using the quantum Hamiltonian descent (QHD) algorithm. QHDOPT offers an accessible interface and automatically maps tasks to various supported quantum backends (i.e., quantum hardware machines). These features enable users, even those without prior knowledge or experience in quantum computing, to utilize the power of existing quantum devices for large-scale nonlinear and nonconvex optimization tasks. In its intermediate compilation layer, QHDOPT employs SimuQ, an efficient interface for Hamiltonian-oriented programming, to facilitate multiple algorithmic specifications and ensure compatible cross-hardware deployment.},
+  journal={Preprint},
+  year={2024},
+  html={https://github.com/jiaqileng/QHDOPT},
+  preview={qhdopt.png}
+}
 
-@article{leng2023expanding,
+@article{leng2024expanding,
   title={Expanding hardware-efficiently manipulable Hilbert space via Hamiltonian embedding},
   author={Leng, Jiaqi and Li, Joseph and Peng, Yuxiang and Wu, Xiaodi},
-  abstract={The realization of quantum computing is fundamentally based on the precise manipulation of Hilbert spaces of underlying quantum devices. The conventional wisdom relies on circuit synthesis techniques to decompose sophisticated operations on Hilbert space to a set of universal elementary gates. Although providing a universal solution, this hardware-agnostic strategy typically leads to deep quantum circuits for interesting quantum algorithms, which makes them infeasible for implementation on near-term quantum devices. In this paper, we propose a technique named Hamiltonian embedding that simulates a desired Hamiltonian evolution by embedding it into the evolution of a large and structured quantum system, which, however, allows more efficient manipulation via hardware-native operations. We conduct a systematic study of this embedding technique and demonstrate a significant computational resource save for implementing prominent quantum applications. As a result, we can experimentally realize quantum walks on complicated graphs (e.g., binary trees, glued-tree graphs), quantum spatial search, and the simulation of real-space Schrödinger equations on trapped-ion and neutral-atom platforms today. Given the fundamental role of Hamiltonian evolution in quantum algorithm design, our technique significantly expands the horizon of implementable quantum advantage in the NISQ era.},
-  journal={Preprint in preparation},
-  year={2023}
+  abstract={Many promising quantum applications depend on the efficient quantum simulation of an exponentially large sparse Hamiltonian, a task known as sparse Hamiltonian simulation, which is fundamentally important in quantum computation. Although several theoretically appealing quantum algorithms have been proposed for this task, they typically require a black-box query model of the sparse Hamiltonian, rendering them impractical for near-term implementation on quantum devices. In this paper, we propose a technique named Hamiltonian embedding. This technique simulates a desired sparse Hamiltonian by embedding it into the evolution of a larger and more structured quantum system, allowing for more efficient simulation through hardware-efficient operations. We conduct a systematic study of this new technique and demonstrate significant savings in computational resources for implementing prominent quantum applications. As a result, we can now experimentally realize quantum walks on complicated graphs (e.g., binary trees, glued-tree graphs), quantum spatial search, and the simulation of real-space Schr\"odinger equations on current trapped-ion and neutral-atom platforms. Given the fundamental role of Hamiltonian evolution in the design of quantum algorithms, our technique markedly expands the horizon of implementable quantum advantages in the NISQ era.},
+  journal={Preprint},
+  year={2024},
+  arxiv={https://arxiv.org/abs/2401.08550},
+  selected={true},
+  preview={embedding.png}
 }
 
 @article{augustino2023quantum,
@@ -18,7 +30,7 @@
   abstract={We propose a novel quantum algorithm for solving linear optimization problems by quantum-mechanical simulation of the central path. While interior point methods follow the central path with an iterative algorithm that works with successive linearizations of the perturbed KKT conditions, we perform a single simulation working directly with the nonlinear complementarity equations. Combining our approach with iterative refinement techniques, we obtain an exact solution to a linear optimization problem involving $m$ constraints and $n$ variables using at most $O ((m + n) nnz(A)  \kappa  L)$ elementary gates and $O(nnz(A) L)$ classical arithmetic operations, where $nnz(A)$ is the total number of non-zero elements found in the constraint matrix, $L$ denotes binary input length of the problem data, and $\kappa$  is a condition number that depends only on the problem data.},
   journal={Preprint},
   year={2023},
-  pdf={https://arxiv.org/abs/2311.03977},
+  arxiv={https://arxiv.org/abs/2311.03977},
   preview={qcpm.png}
 }
 
@@ -28,9 +40,8 @@
   abstract={In this paper, we identify a family of nonconvex continuous optimization instances, each $d$-dimensional instance with $2^d$ local minima, to demonstrate a quantum-classical performance separation. Specifically, we prove that the recently proposed Quantum Hamiltonian Descent (QHD) algorithm [Leng et al., arXiv:2303.01471] is able to solve any $d$-dimensional instance from this family using $O(d^3)$ quantum queries to the function value and $O(d^4)$ additional 1-qubit and 2-qubit elementary quantum gates. On the other side, a comprehensive empirical study suggests that representative state-of-the-art classical optimization algorithms/solvers (including Gurobi) would require a super-polynomial time to solve such optimization instances.},
   journal={Preprint},
   year={2023},
-  pdf={https://arxiv.org/abs/2311.00811},
-  preview={qhd_nonconvex.png},
-  selected={true}
+  arxiv={https://arxiv.org/abs/2311.00811},
+  preview={qhd_nonconvex.png}
 }
 
 @article{leng2023quantum,
@@ -39,7 +50,7 @@
   abstract={Gradient descent is a fundamental algorithm in both theory and practice for continuous optimization. Identifying its quantum counterpart would be appealing to both theoretical and practical quantum applications. A conventional approach to quantum speedups in optimization relies on the quantum acceleration of intermediate steps of classical algorithms, while keeping the overall algorithmic trajectory and solution quality unchanged. We propose Quantum Hamiltonian Descent (QHD), which is derived from the path integral of dynamical systems referring to the continuous-time limit of classical gradient descent algorithms, as a truly quantum counterpart of classical gradient methods where the contribution from classically-prohibited trajectories can significantly boost QHD's performance for non-convex optimization. Moreover, QHD is described as a Hamiltonian evolution efficiently simulatable on both digital and analog quantum computers. By embedding the dynamics of QHD into the evolution of the so-called Quantum Ising Machine (including D-Wave and others), we empirically observe that the D-Wave-implemented QHD outperforms a selection of state-of-the-art gradient-based classical solvers and the standard quantum adiabatic algorithm, based on the time-to-solution metric, on non-convex constrained quadratic programming instances up to 75 dimensions. Finally, we propose a "three-phase picture" to explain the behavior of QHD, especially its difference from the quantum adiabatic algorithm.},
   journal={Preprint},
   year={2023},
-  pdf={https://arxiv.org/abs/2303.01471},
+  arxiv={https://arxiv.org/abs/2303.01471},
   html={https://jiaqileng.github.io/quantum-hamiltonian-descent/},
   preview={qhd.png},
   selected={true}
@@ -55,8 +66,7 @@
   pages={4707--4721},
   year={2022},
   pdf={https://proceedings.neurips.cc/paper_files/paper/2022/file/1e70ac91ad26ba5b24cf11b12a1f90fe-Paper-Conference.pdf},
-  preview={diff_analog.png},
-  selected={true}
+  preview={diff_analog.png}
 }
 
 @article{childs2022quantum,

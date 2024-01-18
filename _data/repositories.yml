@@ -2,6 +2,7 @@ github_users:
   - jiaqileng
 
 github_repos:
+  - jiaqileng/QHDOPT
   - jiaqileng/quantum-hamiltonian-descent
   - jiaqileng/diff-analog-rydberg
   - YilingQiao/diffquantum
