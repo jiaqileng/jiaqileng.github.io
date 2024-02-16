@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I was awared the Unitary Fund microgrant to build QHDOPT
+title: I was awarded the Unitary Fund microgrant to build QHDOPT
 date: 2023-06-27 13:00:00-0400
 inline: false
 related_posts: false
