@@ -20,6 +20,6 @@ I am a fifth-year doctoral student in the [AMSC](https://amsc.umd.edu/) program 
 
 My research focuses on quantum algorithms for continuous optimization and scientific computing. Specifically, I advocate [Hamiltonian-oriented quantum algorithm design](https://www.cs.umd.edu/~xwu/research.html), a new paradigm in quantum computation that emphasizes both **provable quantum speedups** and **realistic hardware implementability**. I am particularly interested in the following topics:
 
-1. Theoretical foundations and designs of quantum algorithms,
-2. Resource-efficient implementation of quantum algorithms,
-3. Software toolchains for quantum applications.
+1. Theoretical foundation and design of quantum algorithms,
+2. Resource-efficient deployment of quantum algorithms,
+3. Infrastructure (e.g., software toolchains, benchmark, etc.) for quantum applications.
