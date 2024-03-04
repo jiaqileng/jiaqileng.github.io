@@ -20,8 +20,8 @@ nav_order: 5
 
 ### Seminar & Workshop
 - **Quantum approach to classical optimization: why bother and what to do?** [[PDF]](https://drive.google.com/file/d/1rGAMp_zqSD74c4NVkMnKbMJHxQ3dag6C/view?usp=sharing)
-	- (To appear) Department of Computer Science, Georgetown University. April 2024.
 	- (To appear) Mines Quantum Information Seminar, Colorado School of Mines. April 16, 2024.
+	- (To appear) Department of Computer Science, Georgetown University. April 12, 2024.
 	- IQIM seminar, Institute for Quantum Information and Matter, Caltech. March 1, 2024.
 
 - **A dynamical point of view on quantum optimization** [[PDF]](https://drive.google.com/file/d/181Jl10RFJUkk5-Gr7c-MC1QQPpTDPi_f/view?usp=sharing)
