@@ -8,7 +8,7 @@ nav_order: 5
 ---
 
 ### Conference
-1. (To appear) *"Quantum algorithms and software for nonconvex optimization"*, invited talk, 2024 INFORMS Optimization Society Conference (**IOS 2024**). March 22, 2024.
+1. *"Quantum algorithms and software for nonconvex optimization"*, invited talk, 2024 INFORMS Optimization Society Conference (**IOS 2024**). March 22, 2024.
 2. *"A quantum-classical performance separation in nonconvex optimization"*, contributed talk, **American Physical Society (APS) March Meeting 2024**. March 6, 2024.
 3. *"Hybrid Quantum-Classical Framework for Optimal Control"*, invited talk, **2023 INFORMS Annual Meeting**. October 16, 2023.
 4. *"Quantum Hamiltonian Descent"*, invited talk, IEEE International Conference on Quantum Computing and Engineering (**QCE23**). September 22, 2023.
