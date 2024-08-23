@@ -1,18 +1,18 @@
 {
   "basics": {
     "name": "Jiaqi (Jimmy) Leng",
-    "title": "Graduate student",
+    "title": "Postdocotral Researcher",
     "image": "",
-    "email": "jiaqil@umd.edu",
+    "email": "jiaqil@berkeley.edu",
     "phone": "",
     "url": "https://jiaqileng.github.io/",
     "summary": "",
     "location": {
-      "address": "3257 Atlantic Building",
-      "postalCode": "MD 20770",
-      "city": "College Park",
+      "address": "Melvin Calvin Laboratory",
+      "postalCode": "CA 94720",
+      "city": "Berkeley",
       "countryCode": "US",
-      "region": "Maryland"
+      "region": "California"
     },
     "profiles": [
       {
@@ -22,7 +22,16 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "University of California, Berkeley",
+      "position": "Simons Quantum Postdoctoral Fellow",
+      "url": "https://simons.berkeley.edu/homepage", 
+      "area": "Quantum Computation",
+      "startDate": "2024-07-01",
+      "endDate": "Present"
+    }
+  ],
   "volunteer": [],
   "education": [
     {
@@ -31,8 +40,7 @@
       "area": "Applied Mathematics & Statistics, and Scientific Computation (AMSC) Program",
       "studyType": "Doctor of Philosophy (candidate)",
       "startDate": "2019-09-01",
-      "endDate": "Present",
-      "score": ""
+      "endDate": "2024-05-21"
     },
     {
       "institution": "University of Hong Kong",
@@ -40,8 +48,7 @@
       "area": "Mathematics",
       "studyType": "Bachelor of Science (First Class Honours)",
       "startDate": "2015-09-01",
-      "endDate": "2019-06-01",
-      "score": ""
+      "endDate": "2019-06-01"
     },
     {
       "institution": "University of Chicago",
@@ -49,8 +56,7 @@
       "area": "Mathematics",
       "studyType": "Student-at-large (International exchange student)",
       "startDate": "2017-09-01",
-      "endDate": "2018-06-01",
-      "score": ""
+      "endDate": "2018-06-01"
     }
   ],
   "awards": [],

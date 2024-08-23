@@ -8,15 +8,16 @@ nav_order: 5
 ---
 
 ### Conference
-1. *"Quantum algorithms and software for nonconvex optimization"*, invited talk, 2024 INFORMS Optimization Society Conference (**IOS 2024**). March 22, 2024.
-2. *"A quantum-classical performance separation in nonconvex optimization"*, contributed talk, **American Physical Society (APS) March Meeting 2024**. March 6, 2024.
-3. *"Hybrid Quantum-Classical Framework for Optimal Control"*, invited talk, **2023 INFORMS Annual Meeting**. October 16, 2023.
-4. *"Quantum Hamiltonian Descent"*, invited talk, IEEE International Conference on Quantum Computing and Engineering (**QCE23**). September 22, 2023.
-5. *"Quantum Hamiltonian Descent"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2023**). August 17, 2023.
-6. *"Quantum Hamiltonian Descent"*, invited talk, 2023 SIAM Conference on Optimization (**SIAM-OP23**). June 1, 2023.
-7. *"Quantum Hamiltonian Descent"*, contributed talk, **American Physical Society (APS) March Meeting 2023**, March 6, 2023.
-8. *"Quantum Hamiltonian Descent"*, invited talk, **2022 INFORMS Annual Meeting**. October 17, 2022.
-9. *"Quantum algorithms for escaping from saddle points"*, contributed talk, Quantum Information Processing 2021 (**QIP 2021**). February 2, 2021.
+1. *"Quantum Algorithms for Large-scale Linear Control"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2024**). August 14, 2024.
+2. *"Quantum algorithms and software for nonconvex optimization"*, invited talk, 2024 INFORMS Optimization Society Conference (**IOS 2024**). March 22, 2024.
+3. *"A quantum-classical performance separation in nonconvex optimization"*, contributed talk, **American Physical Society (APS) March Meeting 2024**. March 6, 2024.
+4. *"Hybrid Quantum-Classical Framework for Optimal Control"*, invited talk, **2023 INFORMS Annual Meeting**. October 16, 2023.
+5. *"Quantum Hamiltonian Descent"*, invited talk, IEEE International Conference on Quantum Computing and Engineering (**QCE23**). September 22, 2023.
+6. *"Quantum Hamiltonian Descent"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2023**). August 17, 2023.
+7. *"Quantum Hamiltonian Descent"*, invited talk, 2023 SIAM Conference on Optimization (**SIAM-OP23**). June 1, 2023.
+8. *"Quantum Hamiltonian Descent"*, contributed talk, **American Physical Society (APS) March Meeting 2023**, March 6, 2023.
+9. *"Quantum Hamiltonian Descent"*, invited talk, **2022 INFORMS Annual Meeting**. October 17, 2022.
+10. *"Quantum algorithms for escaping from saddle points"*, contributed talk, Quantum Information Processing 2021 (**QIP 2021**). February 2, 2021.
 
 ### Seminar & Workshop
 - **Quantum approach to classical optimization: why bother and what to do?** [[PDF]](https://drive.google.com/file/d/1rGAMp_zqSD74c4NVkMnKbMJHxQ3dag6C/view?usp=sharing)
