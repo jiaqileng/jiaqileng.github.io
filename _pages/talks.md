@@ -9,7 +9,7 @@ nav_order: 5
 
 ### Conference
 1. (To appear) *"Quantum-inspired algorithms for nonconvex quadratic programming"*, contributed talk, **2024 INFORMS Annual Meeting**. October 22, 2024.
-2. (To appear) *TBD*, invited talk, Advancing Quantum Computation Beyond Gate-Model (**BGM2024**). October 8, 2024.
+2. (To appear) *Quantum Dynamics for Continuous Optimization*, invited talk, Advancing Quantum Computation Beyond Gate-Model (**BGM2024**). October 8, 2024.
 3. *"Quantum Algorithms for Large-scale Linear Control"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2024**). August 14, 2024.
 4. *"Quantum algorithms and software for nonconvex optimization"*, invited talk, 2024 INFORMS Optimization Society Conference (**IOS 2024**). March 22, 2024.
 5. *"A quantum-classical performance separation in nonconvex optimization"*, contributed talk, **American Physical Society (APS) March Meeting 2024**. March 6, 2024.
