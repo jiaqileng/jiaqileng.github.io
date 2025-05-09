@@ -3,6 +3,35 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{leng2025quantum2,
+  title={Quantum Optimization via Gradient-Based Hamiltonian Descent},
+  author={Leng, Jiaqi and Shi, Bin},
+  abstract={With rapid advancements in machine learning, first-order algorithms have emerged as the backbone of modern optimization techniques, owing to their computational efficiency and low memory requirements. Recently, the connection between accelerated gradient methods and damped heavy-ball motion, particularly within the framework of Hamiltonian dynamics, has inspired the development of innovative quantum algorithms for continuous optimization. One such algorithm, Quantum Hamiltonian Descent (QHD), leverages quantum tunneling to escape saddle points and local minima, facilitating the discovery of global solutions in complex optimization landscapes. However, QHD faces several challenges, including slower convergence rates compared to classical gradient methods and limited robustness in highly non-convex problems due to the non-local nature of quantum states. Furthermore, the original QHD formulation primarily relies on function value information, which limits its effectiveness. Inspired by insights from high-resolution differential equations that have elucidated the acceleration mechanisms in classical methods, we propose an enhancement to QHD by incorporating gradient information, leading to what we call gradient-based QHD. Gradient-based QHD achieves faster convergence and significantly increases the likelihood of identifying global solutions. Numerical simulations on challenging problem instances demonstrate that gradient-based QHD outperforms existing quantum and classical methods by at least an order of magnitude.},
+  journal={To appear on ICML 2025},
+  year={2025},
+  preview={gradient_based_qhd.png}
+}
+
+@article{leng2025operator,
+  title={Operator-Level Quantum Acceleration of Non-Logconcave Sampling},
+  author={Leng, Jiaqi and Ding, Zhiyan and Chen, Zherui and Lin, Lin},
+  abstract={Sampling from probability distributions of the form $\sigma \propto e^{-\beta V}$, where $V$ is a continuous potential, is a fundamental task across physics, chemistry, biology, computer science, and statistics. However, when $V$ is non-convex, the resulting distribution becomes non-logconcave, and classical methods such as Langevin dynamics often exhibit poor performance. We introduce the first quantum algorithm that provably accelerates a broad class of continuous-time sampling dynamics.  For Langevin dynamics, our method encodes the target Gibbs measure into the amplitudes of a quantum state, identified as the kernel of a block matrix derived from a factorization of the Witten Laplacian operator. This connection enables Gibbs sampling via singular value thresholding and yields the first provable quantum advantage with respect to the Poincar\'e constant in the non-logconcave setting.  Building on this framework, we further develop the first quantum algorithm that accelerates replica exchange Langevin diffusion, a widely used method for sampling from complex, rugged energy landscapes.},
+  journal={Preprint},
+  year={2025},
+  arxiv={2505.05301},
+  preview={operator_level.png}
+}
+
+@article{leng2025sub,
+  title={(Sub)Exponential Quantum Speedup for Optimization},
+  author={Leng, Jiaqi and Wu, Kewen and Wu, Xiaodi and Zheng, Yufan},
+  abstract={We demonstrate provable (sub)exponential quantum speedups in both discrete and continuous optimization, achieved through simple and natural quantum optimization algorithms, namely the quantum adiabatic algorithm for discrete optimization and quantum Hamiltonian descent for continuous optimization. Our result builds on the Gilyén--Hastings--Vazirani (sub)exponential oracle separation for adiabatic quantum computing. With a sequence of perturbative reductions, we compile their construction into two standalone objective functions, whose oracles can be directly leveraged by the plain adiabatic evolution and Schrödinger operator evolution for discrete and continuous optimization, respectively.},
+  journal={Preprint},
+  year={2025},
+  arxiv={2504.14841},
+  preview={exponential_speedup.png}
+}
+
 @article{leng2025quantum,
   title={Quantum Hamiltonian Descent for Non-smooth Optimization},
   author={Leng, Jiaqi and Zheng, Yufan and Jia, Zhiyuan and Fan, Lei and Zhao, Chaoyue and Peng, Yuxiang and Wu, Xiaodi},
