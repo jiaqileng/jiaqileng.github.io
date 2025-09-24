@@ -3,7 +3,7 @@ layout: page
 title: SimuQ
 description: A domain-specific language for quantum simulation with analog compilation
 img:
-importance: 2
+importance: 3
 category:
 ---
 

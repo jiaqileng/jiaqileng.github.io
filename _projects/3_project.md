@@ -3,7 +3,7 @@ layout: page
 title: diffBloqade
 description: Differentiable analog pulse optimization for Rydberg atoms
 img:
-importance: 3
+importance: 4
 category:
 ---
 

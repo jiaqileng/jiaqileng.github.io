@@ -7,7 +7,7 @@
   title={Quantum Optimization via Gradient-Based Hamiltonian Descent},
   author={Leng, Jiaqi and Shi, Bin},
   abstract={With rapid advancements in machine learning, first-order algorithms have emerged as the backbone of modern optimization techniques, owing to their computational efficiency and low memory requirements. Recently, the connection between accelerated gradient methods and damped heavy-ball motion, particularly within the framework of Hamiltonian dynamics, has inspired the development of innovative quantum algorithms for continuous optimization. One such algorithm, Quantum Hamiltonian Descent (QHD), leverages quantum tunneling to escape saddle points and local minima, facilitating the discovery of global solutions in complex optimization landscapes. However, QHD faces several challenges, including slower convergence rates compared to classical gradient methods and limited robustness in highly non-convex problems due to the non-local nature of quantum states. Furthermore, the original QHD formulation primarily relies on function value information, which limits its effectiveness. Inspired by insights from high-resolution differential equations that have elucidated the acceleration mechanisms in classical methods, we propose an enhancement to QHD by incorporating gradient information, leading to what we call gradient-based QHD. Gradient-based QHD achieves faster convergence and significantly increases the likelihood of identifying global solutions. Numerical simulations on challenging problem instances demonstrate that gradient-based QHD outperforms existing quantum and classical methods by at least an order of magnitude.},
-  journal={To appear on ICML 2025},
+  journal={ICML 2025},
   year={2025},
   arxiv={2505.14670},
   preview={gradient_based_qhd.png}
@@ -20,7 +20,8 @@
   journal={Preprint},
   year={2025},
   arxiv={2505.05301},
-  preview={operator_level.png}
+  selected={true},
+  preview={gibbs_sampling.png}
 }
 
 @article{leng2025sub,
@@ -43,6 +44,20 @@
   preview={nonsmooth_qhd.png}
 }
 
+@article{leng2025expanding,
+  title={Expanding hardware-efficiently manipulable Hilbert space via Hamiltonian embedding},
+  author={Leng, Jiaqi and Li, Joseph and Peng, Yuxiang and Wu, Xiaodi},
+  abstract={Many promising quantum applications depend on the efficient quantum simulation of an exponentially large sparse Hamiltonian, a task known as sparse Hamiltonian simulation, which is fundamentally important in quantum computation. Although several theoretically appealing quantum algorithms have been proposed for this task, they typically require a black-box query model of the sparse Hamiltonian, rendering them impractical for near-term implementation on quantum devices. In this paper, we propose a technique named Hamiltonian embedding. This technique simulates a desired sparse Hamiltonian by embedding it into the evolution of a larger and more structured quantum system, allowing for more efficient simulation through hardware-efficient operations. We conduct a systematic study of this new technique and demonstrate significant savings in computational resources for implementing prominent quantum applications. As a result, we can now experimentally realize quantum walks on complicated graphs (e.g., binary trees, glued-tree graphs), quantum spatial search, and the simulation of real-space Schr\"odinger equations on current trapped-ion and neutral-atom platforms. Given the fundamental role of Hamiltonian evolution in the design of quantum algorithms, our technique markedly expands the horizon of implementable quantum advantages in the NISQ era.},
+  journal={Quantum},
+  volume={9},
+  pages={1857},
+  year={2025},
+  publisher={Verein zur F{\"o}rderung des Open Access Publizierens in den Quantenwissenschaften},
+  arxiv={2401.08550},
+  selected={true},
+  preview={embedding.png}
+}
+
 @article{leng2024expanding,
   title={On the computational complexity of Schr\"odinger operators},
   author={Zheng, Yufan and Leng, Jiaqi and Liu, Yizhou and Wu, Xiaodi},
@@ -57,7 +72,7 @@
   title={Differentiable quantum computing for large-scale linear control},
   author={Clayton, Connor and Leng, Jiaqi and Yang, Gengzhi and Qiao, Yi-Ling and Lin, Ming and Wu, Xiaodi},
   abstract={As industrial models and designs grow increasingly complex, the demand for optimal control of large-scale dynamical systems has significantly increased. However, traditional methods for optimal control incur significant overhead as problem dimensions grow. In this paper, we introduce an end-to-end quantum algorithm for linear-quadratic control with provable speedups. Our algorithm, based on a policy gradient method, incorporates a novel quantum subroutine for solving the matrix Lyapunov equation. Specifically, we build a quantum-assisted differentiable simulator for efficient gradient estimation that is more accurate and robust than classical methods relying on stochastic approximation. Compared to the classical approaches, our method achieves a super-quadratic speedup. To the best of our knowledge, this is the first end-to-end quantum application to linear control problems with provable quantum advantage.},
-  journal={NeurIPS},
+  journal={NeurIPS 2025},
   year={2024},
   arxiv={2411.01391},
   html={https://github.com/YilingQiao/diff_lqr},
@@ -75,17 +90,6 @@
   pdf={https://pubsonline.informs.org/doi/10.1287/ijoc.2024.0587},
   html={https://github.com/jiaqileng/QHDOPT},
   preview={qhdopt.png}
-}
-
-@article{leng2024expanding,
-  title={Expanding hardware-efficiently manipulable Hilbert space via Hamiltonian embedding},
-  author={Leng, Jiaqi and Li, Joseph and Peng, Yuxiang and Wu, Xiaodi},
-  abstract={Many promising quantum applications depend on the efficient quantum simulation of an exponentially large sparse Hamiltonian, a task known as sparse Hamiltonian simulation, which is fundamentally important in quantum computation. Although several theoretically appealing quantum algorithms have been proposed for this task, they typically require a black-box query model of the sparse Hamiltonian, rendering them impractical for near-term implementation on quantum devices. In this paper, we propose a technique named Hamiltonian embedding. This technique simulates a desired sparse Hamiltonian by embedding it into the evolution of a larger and more structured quantum system, allowing for more efficient simulation through hardware-efficient operations. We conduct a systematic study of this new technique and demonstrate significant savings in computational resources for implementing prominent quantum applications. As a result, we can now experimentally realize quantum walks on complicated graphs (e.g., binary trees, glued-tree graphs), quantum spatial search, and the simulation of real-space Schr\"odinger equations on current trapped-ion and neutral-atom platforms. Given the fundamental role of Hamiltonian evolution in the design of quantum algorithms, our technique markedly expands the horizon of implementable quantum advantages in the NISQ era.},
-  journal={Preprint (under review)},
-  year={2024},
-  arxiv={2401.08550},
-  selected={true},
-  preview={embedding.png}
 }
 
 @article{augustino2023quantum,
@@ -124,7 +128,7 @@
   title={Differentiable analog quantum computing for optimization and control},
   abstract={We formulate the first differentiable analog quantum computing framework with specific parameterization design at the analog signal (pulse) level to better exploit near-term quantum devices via variational methods. We further propose a scalable approach to estimate the gradients of quantum dynamics using a forward pass with Monte Carlo sampling, which leads to a quantum stochastic gradient descent algorithm for scalable gradient-based training in our framework. Applying our framework to quantum optimization and control, we observe a significant advantage of differentiable analog quantum computing against SOTAs based on parameterized digital quantum circuits by orders of magnitude.},
   author={Leng, Jiaqi and Peng, Yuxiang and Qiao, Yi-Ling and Lin, Ming and Wu, Xiaodi},
-  journal={Advances in Neural Information Processing Systems},
+  journal={NeurIPS 2022},
   volume={35},
   pages={4707--4721},
   year={2022},

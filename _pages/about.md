@@ -18,8 +18,4 @@ social: false # includes social icons at the bottom of the page
 
 I am a Simons Quantum Postdoctoral Fellow at [Simons Institute for the Theory of Computing](https://simons.berkeley.edu/homepage) at UC Berkeley, hosted by [Umesh Vazirani](https://people.eecs.berkeley.edu/~vazirani/) and [Lin Lin](https://math.berkeley.edu/~linlin/). I got my Ph.D. from the University of Maryland in 2024, where I was fortunate to be advised by [Xiaodi Wu](https://www.cs.umd.edu/~xwu/). My name in Chinese: 冷佳奇.
 
-My research focuses on quantum algorithms for continuous optimization and scientific computing. Specifically, I advocate [Hamiltonian-oriented quantum algorithm design](https://www.cs.umd.edu/~xwu/research.html), a new paradigm in quantum computation that emphasizes both **provable quantum speedups** and **realistic hardware implementability**. I am particularly interested in the following topics:
-
-1. Theoretical foundation and design of quantum algorithms,
-2. Resource-efficient deployment of quantum algorithms,
-3. Infrastructure (e.g., software toolchains, benchmark, etc.) for quantum applications.
+My research focuses on the interplay between **machine learning** and **quantum computation**. I design quantum algorithms inspired by core principles in modern ML, such as optimization, sampling, and differentiable programming. To make these algorithms practical, I build scalable and automated toolchains for their simulation and deployment on current and near-term quantum computers. Recently, I am also interested in quantum-inspired methods amenable to large-scale acceleration on today's classical processors.

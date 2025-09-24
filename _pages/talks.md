@@ -8,24 +8,33 @@ nav_order: 5
 ---
 
 ### Conference
-1. (To appear) *"Operator-Level Quantum Acceleration of Classical Gibbs Sampling"*, invited talk, **2025 Internationa Conference on Continuous Optimization (ICCOPT 2025)**. July, 2025.
-2. (To appear) *"Quantum Hamiltonian Descent Algorithms for Nonlinear Optimization"*, invited talk, **IISE Annual Conference 2025 (IISE 2025)**. June, 2025.
-3. (To appear) *"Quantum optimization methods via Hamiltonian dynamics"*, invited talk, **SIAM Conference on Applications of Dynamical Systems (DS25)**. May 11, 2025.
-4. *"A quantum central path algorithmfor linear optimization"*, contributed talk, **QIP 2025**. February 24, 2025.
-5. *"Quantum-inspired algorithms for nonconvex quadratic programming"*, contributed talk, **2024 INFORMS Annual Meeting**. October 22, 2024.
-6. *"Quantum Algorithms for Large-scale Linear Control"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2024**). August 14, 2024.
-7. *"Quantum algorithms and software for nonconvex optimization"*, invited talk, 2024 INFORMS Optimization Society Conference (**IOS 2024**). March 22, 2024.
+18. (To appear) *"Operator-Level Quantum Acceleration of Non-Logconcave Sampling"*, invited talk, 2025 SIAM New York-New Jersey-Pennsylvania Section Conference (**SIAM NNS 2025**). November, 2025.
+17. (To appear) *"Quantum Optimization via Gradient-Based Hamiltonian Descent"*, contributed talk, Gavriel Salvendy International Symposium on Frontiers in Industrial Engineering (**Purdue Quantum AI**). October, 2025.
+16. *"Super-polynomial Quantum Speedups for Continuous Optimization"*, invited talk, IEEE International Conference on Quantum Computing and Engineering (**QCE25**). September, 2025.
+15. *"Operator-Level Quantum Acceleration of Classical Gibbs Sampling"*, invited talk, **2025 Internationa Conference on Continuous Optimization (ICCOPT 2025)**. July, 2025.
+14. *"Quantum Hamiltonian Descent Algorithms for Nonlinear Optimization"*, invited talk, **IISE Annual Conference 2025 (IISE 2025)**. June, 2025.
+13. *"Quantum optimization methods via Hamiltonian dynamics"*, invited talk, **SIAM Conference on Applications of Dynamical Systems (DS25)**. May 11, 2025.
+12. *"A quantum central path algorithmfor linear optimization"*, contributed talk, **QIP 2025**. February 24, 2025.
+11. *"Quantum-inspired algorithms for nonconvex quadratic programming"*, contributed talk, **2024 INFORMS Annual Meeting**. October 22, 2024.
+10. *"Quantum Algorithms for Large-scale Linear Control"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2024**). August 14, 2024.
+9. *"Quantum algorithms and software for nonconvex optimization"*, invited talk, 2024 INFORMS Optimization Society Conference (**IOS 2024**). March 22, 2024.
 8. *"A quantum-classical performance separation in nonconvex optimization"*, contributed talk, **American Physical Society (APS) March Meeting 2024**. March 6, 2024.
-9. *"Hybrid Quantum-Classical Framework for Optimal Control"*, invited talk, **2023 INFORMS Annual Meeting**. October 16, 2023.
-10. *"Quantum Hamiltonian Descent"*, invited talk, IEEE International Conference on Quantum Computing and Engineering (**QCE23**). September 22, 2023.
-11. *"Quantum Hamiltonian Descent"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2023**). August 17, 2023.
-12. *"Quantum Hamiltonian Descent"*, invited talk, 2023 SIAM Conference on Optimization (**SIAM-OP23**). June 1, 2023.
-13. *"Quantum Hamiltonian Descent"*, contributed talk, **American Physical Society (APS) March Meeting 2023**, March 6, 2023.
-14. *"Quantum Hamiltonian Descent"*, invited talk, **2022 INFORMS Annual Meeting**. October 17, 2022.
-15. *"Quantum algorithms for escaping from saddle points"*, contributed talk, Quantum Information Processing 2021 (**QIP 2021**). February 2, 2021.
+7. *"Hybrid Quantum-Classical Framework for Optimal Control"*, invited talk, **2023 INFORMS Annual Meeting**. October 16, 2023.
+6. *"Quantum Hamiltonian Descent"*, invited talk, IEEE International Conference on Quantum Computing and Engineering (**QCE23**). September 22, 2023.
+5. *"Quantum Hamiltonian Descent"*, invited talk, Modeling and Optimization: Theory and Applications (**MOPTA 2023**). August 17, 2023.
+4. *"Quantum Hamiltonian Descent"*, invited talk, 2023 SIAM Conference on Optimization (**SIAM-OP23**). June 1, 2023.
+3. *"Quantum Hamiltonian Descent"*, contributed talk, **American Physical Society (APS) March Meeting 2023**, March 6, 2023.
+2. *"Quantum Hamiltonian Descent"*, invited talk, **2022 INFORMS Annual Meeting**. October 17, 2022.
+1. *"Quantum algorithms for escaping from saddle points"*, contributed talk, Quantum Information Processing 2021 (**QIP 2021**). February 2, 2021.
 
 
 ### Seminar & Workshop
+- **Operator-Level Quantum Acceleration for Non-Logconcave Sampling**
+	- Ronagh Group Meeting (host: Pooya Ronagh), University of Waterloo. July 14, 2025.
+
+- **Operator-Level Quantum Acceleration for Optimization and Sampling**
+	- Mathematical and Computational Challenges in Quantum Computing Reunion Conference 1, UCLA. June 12, 2025.
+
 - **Quantum Algorithms for Machine Learning via Unbounded Operators**
 	- Berkeley Quantum Gathering. April 4, 2025.
 
@@ -64,4 +73,7 @@ nav_order: 5
 	- Student AMSC Seminar at **University of Maryland, College Park**. March 6, 2020. 
 
 ### Tutorial
-1. *"SimuQ: A Domain-Specific Language for Quantum Simulation with Analog Compilation"*, tutorial, EEE International Conference on Quantum Computing and Engineering **(QCE23)**. September 20, 2023.
+1. *Step-by-Step Guide to Solving Nonlinear Optimization with Quantum Computers*, tutorial, IEEE International Conference on Quantum Computing and Engineering **(QCE25)**. September 3, 2025.
+
+2. *"SimuQ: A Domain-Specific Language for Quantum Simulation with Analog Compilation"*, tutorial, IEEE International Conference on Quantum Computing and Engineering **(QCE23)**. September 20, 2023.
+
