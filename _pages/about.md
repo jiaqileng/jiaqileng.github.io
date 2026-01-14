@@ -21,4 +21,4 @@ I am a Simons Quantum Postdoctoral Fellow at [Simons Institute for the Theory of
 My research focuses on the interplay between **machine learning** and **quantum computation**. I design quantum algorithms inspired by core principles in modern ML, such as optimization, sampling, and differentiable programming. To make these algorithms practical, I build scalable and automated toolchains for their simulation and deployment on current and near-term quantum computers. Recently, I am also interested in quantum-inspired methods amenable to large-scale acceleration on today's classical processors.
 
 
-<span style="color:red; font-weight:bold;">I am on the job market in the academic year 2025-26, see my [CV](https://drive.google.com/file/d/1g7j7phRsAlqYNKO9F7zWc8Jd2RVFz2jF/view?usp=drive_link) here.</span>
+<span style="color:red; font-weight:bold;">I am on the job market in the academic year 2025-26, see my [CV](https://drive.google.com/file/d/1xx2xB-KCCPqp5dkD7MoFXqrJ29UYWLpm/view?usp=drive_link) here.</span>
