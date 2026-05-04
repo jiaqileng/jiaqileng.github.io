@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper ["Towards End-to-End Quantum Estimation of Non-Hermitian Pseudospectra"](https://scirate.com/arxiv/2603.16214) has been posted on arXiv. Check it now!
+Our paper ["Towards End-to-End Quantum Estimation of Non-Hermitian Pseudospectra"](https://arxiv.org/abs/2603.16214) has been posted on arXiv. Check it now!
