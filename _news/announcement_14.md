@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper ["Quantum Optimization via Gradient-Based Hamiltonian Descent"](https://arxiv.org/abs/2504.14670) has been posted on arXiv. Check it now!
+Our paper ["Quantum Optimization via Gradient-Based Hamiltonian Descent"](https://arxiv.org/abs/2505.14670) has been posted on arXiv. Check it now!
