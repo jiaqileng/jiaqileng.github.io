@@ -3,12 +3,33 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{leng2026accelerating,
+  title={Accelerating quantum Gibbs sampling without quantum walks},
+  author={Leng, Jiaqi and Jiang, Jiaqing and Lin, Lin},
+  abstract={Szegedy's quantum walk gives a generic quadratic speedup for reversible classical Markov chains, but extending this mechanism to quantum Gibbs sampling has remained challenging beyond special cases. We present a walk-free quantum algorithm for preparing purified Gibbs states with a quadratic improvement in spectral-gap dependence for a broad class of quantum Gibbs samplers that satisfy exact Kubo--Martin--Schwinger detailed balance. Our main structural result is an explicit factorization of the corresponding parent Hamiltonian into noncommutative first-order operators. This turns purified Gibbs-state preparation into a singular-value filtering problem and enables a quantum singular value transformation algorithm with quadratically improved gap dependence under standard coherent-access assumptions. The framework applies to several efficiently implementable Gibbs samplers beyond the Davies setting. We also introduce an auxiliary dissipative dynamics based on the same factorization, which can be used to generate warm starts in the doubled Hilbert space in metastable regimes.},
+  year={2026},
+  arxiv={2604.22996},
+  journal={Preprint},
+  preview={without_quantum_walk.png}
+}
+
+@article{yang2026endtoend,
+  title={Towards End-to-End Quantum Estimation of Non-Hermitian Pseudospectra},
+  author={Yang, Gengzhi and Leng, Jiaqi and Wu, Xiaodi and Lin, Lin},
+  abstract={Non-Hermitian many-body systems can be spectrally unstable, so small perturbations may induce large eigenvalue shifts. The pseudospectrum quantifies this instability and provides a perturbation-robust diagnostic. For inverse-polynomially small $\epsilon$, we show that deciding whether a complex-valued point $z$ is $\epsilon$-close to the spectrum is PSPACE-hard for 5-local operators, whereas deciding whether $z$ lies in the $\epsilon$-pseudospectrum is QMA-complete for 4-local operators. This identifies pseudospectrum membership as a natural computational target. We then present a concrete end-to-end quantum framework for deciding pseudospectrum membership, which combines a singular-value estimation step with a dissipative state preparation algorithm. Our Quantum Singular-value Gaussian-filtered Search (QSIGS) combines quantum singular value transformation (QSVT) with classical post-processing to achieve Heisenberg-limited query scaling for singular-value estimation. To prepare suitable input states, we introduce an algorithmic Lindbladian protocol for approximate ground right singular vectors and prove its effectiveness for the Hatano--Nelson model. Finally, we demonstrate the full pipeline on a trapped-ion quantum computer and distinguish points inside and outside the target pseudospectrum near the exceptional point of a minimal non-Hermitian qubit model.},
+  year={2026},
+  arxiv={2603.16214},
+  journal={Preprint},
+  preview={pseudospec.png}
+}
+
 @article{li2026resource,
   title={Resource-efficient quantum simulation of transport phenomena via Hamiltonian embedding},
   author={Li, Joseph and Yang, Gengzhi and Leng, Jiaqi and Wu, Xiaodi},
   abstract={Transport phenomena play a key role in a variety of application domains, and efficient simulation of these dynamics remains an outstanding challenge. While quantum computers offer potential for significant speedups, existing algorithms either lack rigorous theoretical guarantees or demand substantial quantum resources, preventing scalable and efficient validation on realistic quantum hardware. To address this gap, we develop a comprehensive framework for simulating classes of transport equations, offering both rigorous theoretical guarantees -- including exponential speedups in specific cases -- and a systematic, hardware-efficient implementation. Central to our approach is the Hamiltonian embedding technique, a white-box approach for end-to-end simulation of sparse Hamiltonians that avoids abstract query models and retains near-optimal asymptotic complexity. Empirical resource estimates indicate that our approach can yield an order-of-magnitude (e.g., 42×) reduction in circuit depth given favorable problem structures. We then apply our framework to solve linear and nonlinear transport PDEs, including the first experimental demonstration of a 2D advection equation on a trapped-ion quantum computer.},
   year={2026},
   arxiv={2602.03099},
+  journal={Preprint},
   preview={transport_pde.png}
 }
 

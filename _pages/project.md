@@ -5,59 +5,18 @@ permalink: /projects/
 description: A collection of software for quantum applications
 nav: true
 nav_order: 3
-display_categories:
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+<div class="software-list">
+  <h2><a href="https://github.com/Artephi-Computing/OpenPhiSolve">OpenPhiSolve</a></h2>
+  <p>JAX-based implementation of Quantum-Inspired Hamiltonian Descent for mixed-integer quadratic programming.</p>
 
-{% else %}
+  <h2><a href="https://github.com/PhysOpt/QHDOPT">QHDOPT</a></h2>
+  <p>Software for nonlinear optimization with Quantum Hamiltonian Descent.</p>
 
-<!-- Display projects without categories -->
+  <h2><a href="https://github.com/PicksPeng/SimuQ">SimuQ</a></h2>
+  <p>A domain-specific language for quantum simulation with analog compilation.</p>
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
-    </div>
-  </div>
-  {% else %}
-  <div class="grid">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  <h2><a href="https://github.com/jiaqileng/diffBloqade">diffBloqade</a></h2>
+  <p>Differentiable analog pulse optimization for Rydberg atoms.</p>
 </div>
