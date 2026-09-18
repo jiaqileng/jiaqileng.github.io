@@ -5,6 +5,7 @@ This repository contains the source for [jiaqileng.github.io](https://jiaqileng.
 ## Updating content
 
 - Biography and homepage settings: `_pages/about.md`
+- Group members and recruitment: `_pages/group.md` (edit the `members` list at the top)
 - Announcements: `_news/`
 - Publications: `_bibliography/papers.bib`
 - Software links: `_pages/project.md`
