@@ -11,7 +11,7 @@ members:
   - name: "Koushik Reddy Parukola"
     role: "Research Assistant (Aug 2026 - Now)"
   - name: "Long Him Cheung"
-    role: "Visiting Scholar (Starting on Oct 2026)"
+    role: "Visiting Scholar (Oct 2026 - Now)"
 
 # Replace this placeholder with a friend's details; add more entries as needed.
 friends:
@@ -21,6 +21,10 @@ friends:
     role: "(Postdoc in Economou-Barnes group, VT Physics)"
   - name: "Bharath Sambasivam"
     role: "(Postdoc in Economou-Barnes group, VT Physics)"
+  - name: "Muhammad Farhan Azmine"
+    role: "(PhD student in Yi group, VT ECE)"
+  - name: "Alberta Dadeboe"
+    role: "(PhD student in Yi group, VT ECE)"
 ---
 
 <h2>Current members</h2>
